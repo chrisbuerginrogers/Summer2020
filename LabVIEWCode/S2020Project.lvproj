@@ -184,6 +184,7 @@
 			<Item Name="ApplicationServices.framework" Type="Document" URL="ApplicationServices.framework">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Build_CommCluster.vi" Type="VI" URL="../Subs/ThingWorx/_TW_Subs/ThingworxCtrl/Build_CommCluster.vi"/>
 			<Item Name="Carbon.framework" Type="Document" URL="Carbon.framework">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -194,6 +195,7 @@
 			</Item>
 			<Item Name="SaveFileOnProcessor.vi" Type="VI" URL="../Subs/SaveFileOnProcessor.vi"/>
 			<Item Name="Tag-i32.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-i32.lvlib"/>
+			<Item Name="TW_HTTPErr.vi" Type="VI" URL="../Subs/ThingWorx/_TW_Subs/ThingworxCtrl/TW_HTTPErr.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
