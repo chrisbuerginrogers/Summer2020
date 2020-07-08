@@ -19,8 +19,6 @@
 		<Item Name="PythonCode" Type="Folder" URL="../../PythonCode">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Damien.vi" Type="VI" URL="../Servers/Damien.vi"/>
-		<Item Name="IDE_BT_Example.vi" Type="VI" URL="../IDE_BT_Example.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="BuildWiFiPython.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/BuildWiFiPython.vi"/>

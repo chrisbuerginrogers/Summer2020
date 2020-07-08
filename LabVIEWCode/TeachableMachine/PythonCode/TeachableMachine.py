@@ -8,7 +8,7 @@ global model
     
 def initMachine():
     global model
-    model = tensorflow.keras.models.load_model('/Applications/National Instruments/LabVIEW 2019 64-bit/user.lib/ME35/Course/_Subs/TeachableMachine/converted_keras/keras_model.h5')
+    model = tensorflow.keras.models.load_model('/Users/crogers/GitHub/Summer2020/LabVIEWCode/TeachableMachine/converted_keras/keras_model.h5')
     return 1
 
 def askMachine(path):
