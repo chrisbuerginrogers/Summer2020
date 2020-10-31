@@ -16,48 +16,13 @@
 		<Item Name="LabVIEWCode" Type="Folder" URL="..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="PyPynt" Type="Folder" URL="../../../../Dropbox (Rogers)/Documents/Python Codes/PyPynt">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="PythonCode" Type="Folder" URL="../../PythonCode">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="user.lib" Type="Folder">
-				<Item Name="BuildWiFiPython.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/BuildWiFiPython.vi"/>
-				<Item Name="CameraSetup.ctl" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/CameraSetup.ctl"/>
-				<Item Name="CameraSetup.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/CameraSetup.vi"/>
-				<Item Name="CheckReplace.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/CheckReplace.vi"/>
-				<Item Name="CloseHS.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/Advanced/CloseHS.vi"/>
-				<Item Name="ConvertImageToJpg.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/ConvertImageToJpg.vi"/>
-				<Item Name="ConvertSize.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/ConvertSize.vi"/>
-				<Item Name="ConvertToLAB.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/ConvertToLAB.vi"/>
-				<Item Name="convertToTF.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/convertToTF.vi"/>
-				<Item Name="ConvertToU8.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/ConvertToU8.vi"/>
-				<Item Name="DestinationCode.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/DestinationCode.vi"/>
-				<Item Name="EndScript.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/Advanced/EndScript.vi"/>
-				<Item Name="FB_Enable.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/Advanced/FB_Enable.vi"/>
-				<Item Name="FindROIstring.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/FindROIstring.vi"/>
-				<Item Name="GenerateLab.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/GenerateLab.vi"/>
-				<Item Name="HighSpeedInit.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/Advanced/HighSpeedInit.vi"/>
-				<Item Name="KeyboardCalls.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/KeyboardCalls.vi"/>
-				<Item Name="OMV_Python.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/OMV_Python.vi"/>
-				<Item Name="OMV_UploadMainPY.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/OMV_UploadMainPY.vi"/>
-				<Item Name="OMV_WriteToUART.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/OMV_WriteToUART.vi"/>
-				<Item Name="OpenMV_SelectLab.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/OpenMV_SelectLab.vi"/>
-				<Item Name="OpenMV_SelectROI.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/OpenMV_SelectROI.vi"/>
-				<Item Name="QRCodes.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/Behaviors/QRCodes.vi"/>
-				<Item Name="ReadOpenMVImage.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/ReadOpenMVImage.vi"/>
-				<Item Name="ReadREPL.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/ReadREPL.vi"/>
-				<Item Name="ReadTxBuffer.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/ReadTxBuffer.vi"/>
-				<Item Name="ROIText.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/ROIText.vi"/>
-				<Item Name="RunScript.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/Advanced/RunScript.vi"/>
-				<Item Name="Select.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/Select.vi"/>
-				<Item Name="SensorOperation.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/SensorOperation.vi"/>
-				<Item Name="SettingsText.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/SettingsText.vi"/>
-				<Item Name="simpleStatistics.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/Behaviors/simpleStatistics.vi"/>
-				<Item Name="StringToArray.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/StringToArray.vi"/>
-				<Item Name="trackBlobs.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/Behaviors/trackBlobs.vi"/>
-				<Item Name="trackFaces.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/Behaviors/trackFaces.vi"/>
-				<Item Name="WriteHSpeed.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/WriteHSpeed.vi"/>
-			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
@@ -184,18 +149,17 @@
 			<Item Name="ApplicationServices.framework" Type="Document" URL="ApplicationServices.framework">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Build_CommCluster.vi" Type="VI" URL="../Subs/ThingWorx/_TW_Subs/ThingworxCtrl/Build_CommCluster.vi"/>
 			<Item Name="Carbon.framework" Type="Document" URL="Carbon.framework">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
 			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
+			<Item Name="Console_Xctrl.xctl" Type="XControl" URL="../../../../Dropbox (Rogers)/GitHub/Summer2020/LabVIEWCode/Subs/Console XCtrl/Console_Xctrl.xctl"/>
 			<Item Name="CoreFoundation.framework" Type="Document" URL="CoreFoundation.framework">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="SaveFileOnProcessor.vi" Type="VI" URL="../Subs/SaveFileOnProcessor.vi"/>
 			<Item Name="Tag-i32.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-i32.lvlib"/>
-			<Item Name="TW_HTTPErr.vi" Type="VI" URL="../Subs/ThingWorx/_TW_Subs/ThingworxCtrl/TW_HTTPErr.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
